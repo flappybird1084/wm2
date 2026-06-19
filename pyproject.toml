@@ -1,0 +1,16 @@
+[project]
+name = "wm2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.0.0",
+    "hf-transfer>=0.1.9",
+    "huggingface-hub[cli]>=1.20.1",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.0",
+    "torch>=2.12.1",
+    "torchcodec>=0.14.0",
+    "torchvision>=0.27.1",
+]
